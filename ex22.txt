@@ -1,0 +1,119 @@
+ex0
+in command line:
+cd = change directory
+mkdir = make directory
+dir = list directory
+cls = clear screen
+python => enter the python software
+quit(), ctrl^z => brings you out of python
+ctrl^c = force stops whatever you have going on screen
+
+ex1
+print() = print whatever is inside the brackets
+
+ex2
+#octothrobe
+
+ex3
+/ divide
+// modulo
+% = percent (modulus)
+< less-than
+> greater-than
+<= less than equal
+>= greater than equal
+
+ex4
+= setting variable
+
+ex5
+
+f"" in print(f"") = formatted string
+
+ex6
+f"{x}" = inserts the x value into formatted string
+
+ex7
+.format(x) = puts the formatted x into a {} within a text
+
+ex8
+demonstrated that {} must be used for .format() to work
+
+ex9
+''' ''' or """ """ = comments out the space in between quotation marks
+\n = newline in text strings
+
+ex10
+\ = escape sequence, can be used to ignore some characters after it
+\\ = back slash
+\' = single quote
+\" = double quote
+\a = ascii bell
+\b = ascii backspace
+\f = ascii formfeed
+\n = linefeed
+\N{name} character named name in unicode database
+\r = carriage return
+\t = horizontal tab
+\uxxxx = character with 16bit hex val
+\Uxxxxxxxxx = character with 32bit hex val
+\v = ascii vertical tab
+\000 = character with octal value 000
+\xhh = character with hex value hh
+
+ex11
+end='' goes to the next line in the printline
+input() = user input
+
+ex12
+() = paranthesis for calling fucntions and creating objects
+{} = curly brackets for creating dictionary
+[] = square brackets for creating lists
+
+ex13
+from x import y = importing y from x module
+
+ex14
+argv = a list in the sys module
+cd.> = creating a file in cmd
+md = make a new folder
+cd.. = goes back up one level
+echo = prints what's after this in cmd line
+
+ex15
+open() = opens a file in bracket (in read mode)
+
+ex16
+.close() = closes a file
+.read() = reads a file
+.readline() = reads just one line in a file
+.truncate() = empties the file
+write('something') = writes "something" to the file
+seek(0) = moves to position in bracket
+
+w, r, a in open() = write, read, append
+w+, r+, a+ = + is a modifier to both read and write code
+
+ex17
+from os.path import exists = exists returns True if a file exists
+echo 'string' > abc.txt = creates a text file that says "string"
+cd. > file.txt = creates a file that says file.txt
+more = prints the txt file in cmd
+type = prints the txt file in cmd
+len() = gets the length of the passing string and returns a number
+
+ex18
+def fxn(): = defining a function called fxn, bracket indicates param
+*args = the * takes all the arguments to fxn and puts them in
+    args as a list
+
+ex19
+int() = converts into an integer
+float() = converts into a floating point
+
+ex20
+python -m pydoc = helps you look at python documentation in cmd line
++= = a form of contraction x = x + y => x += y
+
+ex21
+return = sets variables to be a value from a fxn
